@@ -1,0 +1,119 @@
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+logs/
+*.log
+*.out
+
+### Temporary ###
+*.tmp
+*.swp
+*.swo
+
+### Env / Secrets ###
+.env
+.env.local
+.env.*.local
+/secrets/
+/config/
+/*.pem
+/*.key
+
+# ===========================
+# Java / Spring Boot (BE)
+# ===========================
+/target/
+/out/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+
+### Gradle ###
+.gradle/
+/!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+.gradle-cache/
+
+### IntelliJ IDEA ###
+.idea/
+/*.iml
+*.ipr
+*.iws
+
+### Test / Coverage (Java) ###
+/test-output/
+/jacoco.exec
+/jacoco-report.html
+/coverage/
+
+# ===========================
+# Python / Batch
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+*.sqlite3
+
+### Virtual Env ###
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+venv*/
+
+### Pip / Poetry ###
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+### Build ###
+build/
+dist/
+*.egg-info/
+
+### Jupyter ###
+.ipynb_checkpoints
+*.ipynb
+
+### Test / Coverage (Python) ###
+.tox/
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# ===========================
+# Node.js / Frontend (FE)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.next.cache/
+out/
+coverage/
+*.tsbuildinfo
+
+### IDE / Tools ###
+.vscode/
+*.sw?
+*.swo
+*.swp
+
+# ===========================
+# Docker
+# ===========================
+/docker-data/
+/docker-compose.override.yml
+*.pid
